@@ -1,0 +1,77 @@
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 46px;
+}
+
+.signin-btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+.signin-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.signin-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.signin-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+.signin-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+}
+
+.signin-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.signin-form button:hover {
+    background-color: rgba(255, 0, 0, 0.777);
+}
+
+.span {
+    color: gray;
+}
